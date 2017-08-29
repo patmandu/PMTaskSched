@@ -38,7 +38,7 @@ void TestCase(unsigned uCaseNum)
 	hrResult = theTS.init();
 	if (!FAILED(hrResult))
 	{
-		hrResult = theTS.CreateTask("executable", "args", "taskname", 0);
+		hrResult = theTS.CreateTask("executable", "args", "taskname", 1);
 	}
 
 	uOrigin = theTS.getFailOrigin();
